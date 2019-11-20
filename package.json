@@ -10,7 +10,15 @@
   "keywords": [
     "react-native",
     "kakao link",
-    "카카오링크"
+    "카카오링크",
+    "react-native-kakao",
+    "react-native-kakao-link",
+    "react-native-kakao-links",
+    "react-native-kakaotalk",
+    "react-native-kakao-talk",
+    "kakao",
+    "kakaotalk",
+    "kakaolink"
   ],
   "license": "MIT",
   "dependencies": {
