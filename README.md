@@ -13,6 +13,13 @@
 
 dependencies로 되어있어서 같이 설치가 됩니다.
 
+## 기타사항
+
+궁금한 사항이 있는경우 카카오톡 오픈채팅 React & React-Native에서 물어보면 많은 분들이 답변해주십니다.
+
+작업하시다가 외주 혹은 작업할 업체가 필요하면 [project@trabricks.io](mailto:project@trabricks.io)로 메일 주시면 친절하게 안내해드립니다.
+
+
 ## Getting started
 
 ### Mostly automatic installation (RN >= 0.60)
