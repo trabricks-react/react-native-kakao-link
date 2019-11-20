@@ -6,18 +6,18 @@
 //  Copyright © 2019 Facebook. All rights reserved.
 //
 
-#import "ANKakaoLink.h"
+#import "ARNKakaoLink.h"
 #import <KakaoLink/KakaoLink.h>
 #import <KakaoMessageTemplate/KakaoMessageTemplate.h>
 
-@implementation ANKakaoLink
+@implementation ARNKakaoLink
 
 - (dispatch_queue_t)methodQueue
 {
     return dispatch_get_main_queue();
 }
 
-RCT_EXPORT_MODULE(ANKakaoLink)
+RCT_EXPORT_MODULE(ARNKakaoLink)
 
 - (void) sendWithTemplate: (KMTTemplate *)template resolver:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject {
     [[KLKTalkLinkCenter sharedCenter] sendDefaultWithTemplate:template success:^(NSDictionary<NSString *,NSString *> * _Nullable warningMsg, NSDictionary<NSString *,NSString *> * _Nullable argumentMsg) {
