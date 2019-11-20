@@ -169,7 +169,7 @@ import KakaoSDK from '@actbase/react-native-kakaosdk';
 
 ...
 
-KakaoSDK.link.sendFeed({
+KakaoSDK.link().sendFeed({
   content: {
     title: '디저트 사진',
     desc: '아메리카노, 빵, 케익',
@@ -229,7 +229,7 @@ import KakaoSDK from '@actbase/react-native-kakaosdk';
 
 ...
 
-KakaoSDK.link.sendList({
+KakaoSDK.link().sendList({
   headerTitle: 'WEEKELY MAGAZINE',
   headerLink: {
     webURL: 'https://developers.kakao.com',
@@ -304,7 +304,7 @@ import KakaoSDK from '@actbase/react-native-kakaosdk';
 
 ...
 
-KakaoSDK.link.sendLocation({
+KakaoSDK.link().sendLocation({
   address: '성남시 분당구 판교역로 235',
   addressTitle: '카카오 판교오피스',
   content: {
@@ -350,7 +350,7 @@ import KakaoSDK from '@actbase/react-native-kakaosdk';
 
 ...
 
-KakaoSDK.link.sendCommerce({
+KakaoSDK.link().sendCommerce({
   contents: {
     title: 'Ivory long dress (4 Color)',
     imageURL: 'http://mud-kage.kakao.co.kr/dn/RY8ZN/btqgOGzITp3/uCM1x2xu7GNfr7NS9QvEs0/kakaolink40_original.png',
@@ -393,7 +393,7 @@ import KakaoSDK from '@actbase/react-native-kakaosdk';
 
 ...
 
-KakaoSDK.link.sendText({
+KakaoSDK.link().sendText({
   text: 'Text',
   link: {
     webURL: 'https://developers.kakao.com',
@@ -430,7 +430,7 @@ import KakaoSDK from '@actbase/react-native-kakaosdk';
 
 ...
 
-KakaoSDK.link.sendURL('https://developers.kakao.com')
+KakaoSDK.link().sendURL('https://developers.kakao.com')
 .then(r => console.log('success'))
 .catch(e => console.log(e));
 ```
