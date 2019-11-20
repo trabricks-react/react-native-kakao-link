@@ -158,7 +158,7 @@ buttonTitle, buttons 모두 있을 경우 buttons가 사용됩니다. 둘 다 �
 
 
 ```js
-import KakaoSDK from 'actbase-native-kakaosdk';
+import KakaoSDK from '@actbase/react-native-kakaosdk';
 
 ...
 
@@ -218,7 +218,7 @@ buttonTitle, buttons 모두 있을 경우 buttons가 사용됩니다. 둘 다 �
 
 
 ```js
-import KakaoSDK from 'actbase-native-kakaosdk';
+import KakaoSDK from '@actbase/react-native-kakaosdk';
 
 ...
 
@@ -293,7 +293,7 @@ KakaoSDK.link.sendList({
 
 
 ```js
-import KakaoSDK from 'actbase-native-kakaosdk';
+import KakaoSDK from '@actbase/react-native-kakaosdk';
 
 ...
 
@@ -339,7 +339,7 @@ KakaoSDK.link.sendLocation({
 
 
 ```js
-import KakaoSDK from 'actbase-native-kakaosdk';
+import KakaoSDK from '@actbase/react-native-kakaosdk';
 
 ...
 
@@ -382,7 +382,7 @@ KakaoSDK.link.sendCommerce({
 |buttons|메시지 하단에 추가되는 버튼 목록. 버튼 타이틀과 링크를 변경하고 싶을때, 버튼 두개를 사용하고 싶을때 사용. 최대 2개|[`ButtonObject[]`](https://github.com/trabricks/react-native-kakao-link/blob/master/README.md#Button-오브젝트)|X|
 
 ```js
-import KakaoSDK from 'actbase-native-kakaosdk';
+import KakaoSDK from '@actbase/react-native-kakaosdk';
 
 ...
 
@@ -419,7 +419,7 @@ KakaoSDK.link.sendText({
 ```
 
 ```js
-import KakaoSDK from 'actbase-native-kakaosdk';
+import KakaoSDK from '@actbase/react-native-kakaosdk';
 
 ...
 
