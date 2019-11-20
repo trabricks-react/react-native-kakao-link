@@ -1,3 +1,7 @@
+yarn.lock
+package-lock.json
+Podfile.lock
+
 # OSX
 #
 .DS_Store

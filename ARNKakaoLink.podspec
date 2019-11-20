@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.name    = "ARNKakaoLink"
   s.version = package['version']
   s.summary = "Kakao Link For React Native."
-  
+
   s.authors   = { "Suhan Moon" => "leader@trabricks.io" }
   s.homepage  = "https://github.com/trabricks/react-native-link#readme"
   s.license   = "MIT"
@@ -19,10 +19,8 @@ Pod::Spec.new do |s|
   s.source_files  = "ios/*.{h,m}"
 
   s.dependency "React"
-  s.dependency "ARNKakaoSDK"
-
-  s.vendored_frameworks = 'KakaoLink.framework'
+  s.vendored_frameworks = 'KakaoLink.framework', '../react-native-kakaosdk/KakaoCommon.framework', '../react-native-kakaosdk/KakaoMessageTemplate.framework'
 
 end
 
-  
+
