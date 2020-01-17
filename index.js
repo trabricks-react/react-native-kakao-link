@@ -2,25 +2,30 @@ import { NativeModules } from "react-native";
 
 const { ARNKakaoLink } = NativeModules;
 
-export const link = {
-  sendFeed: object => {
-    ARNKakaoLink.sendFeed(object);
-  },
-  sendList: object => {
-    ARNKakaoLink.sendList(object);
-  },
-  sendLocation: object => {
-    ARNKakaoLink.sendLocation(object);
-  },
-  sendCommerce: object => {
-    ARNKakaoLink.sendCommerce(object);
-  },
-  sendText: object => {
-    ARNKakaoLink.sendText(object);
-  },
-  sendURL: object => {
-    ARNKakaoLink.sendURL(object);
-  }
+const sendFeed = object => {
+  return ARNKakaoLink.sendFeed(object);
+};
+const sendList = object => {
+  return ARNKakaoLink.sendList(object);
+};
+const sendLocation = object => {
+  return ARNKakaoLink.sendLocation(object);
+};
+const sendCommerce = object => {
+  return ARNKakaoLink.sendCommerce(object);
+};
+const sendText = object => {
+  return ARNKakaoLink.sendText(object);
+};
+const sendURL = object => {
+  return ARNKakaoLink.sendURL(object);
 };
 
-export default link;
+export default {
+  sendFeed,
+  sendList,
+  sendLocation,
+  sendCommerce,
+  sendText,
+  sendURL
+};
